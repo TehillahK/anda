@@ -2,36 +2,26 @@
 .container{
   display: grid;
 }
+.container-main{
+  display: grid;
+  grid-auto-rows: auto auto;
+  grid-gap: 90px;
+}
 .adMainPage{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.new-artist{
+.new-artist-intro{
   display: flex;
   flex-direction: column;
-  background-color: red;
-  div{
-    justify-content: center;
-    align-items: center;
-  }
+  justify-content:space-around;
 }
 .artistTable{
   display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 0;
-  .links{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    background-color: black;
-    padding-left: 20px;
-    padding-right: 20px;
-    a{
-      text-decoration: none;
-      background-color: gray;
-      padding: 40px;
-    }
-  }
+  grid-template-columns: 400px 400px;
+  justify-content: center;
+  grid-gap: 40px;
+
 }
