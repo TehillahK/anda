@@ -1,0 +1,37 @@
+
+.container{
+  display: grid;
+}
+.adMainPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.new-artist{
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  div{
+    justify-content: center;
+    align-items: center;
+  }
+}
+.artistTable{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0;
+  .links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    a{
+      text-decoration: none;
+      background-color: gray;
+      padding: 40px;
+    }
+  }
+}
