@@ -5,7 +5,8 @@
 
 .container-main{
   display: grid;
-  grid-auto-rows: auto auto auto;
+  //                   Prod  prod  Footer
+  grid-auto-rows: auto auto auto auto;
   grid-gap: 90px;
 }
 .adMainPage{
@@ -38,6 +39,27 @@
   //background-color: red;
   display: grid;
   justify-content: center;
+  h1{
+    margin-bottom: 20px;
+  }
+  .producers{
+    display: inline-block;
+
+    .producer-card{
+      display: flex;
+      flex-direction: row;
+
+      .info{
+        margin-left: 5px;
+        margin-top: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+
+      }
+    }
+  }
+
   .playlists{
     grid-template-columns: 350px 350px 350px;
     grid-gap: 50px;

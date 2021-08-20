@@ -6,3 +6,15 @@
   justify-content: center;
   align-items: center;
 }
+
+.circle-avatar{
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+}
+.roll{
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  white-space: nowrap;
+}

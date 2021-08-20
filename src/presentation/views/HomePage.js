@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import HomeAd from "../components/HomeAd";
 import NewestArtist from "../components/NewestArtist";
 import Playlists from "../components/Playlists";
+import TopProducers from "../components/TopProducers";
+import Footer from "../components/Footer";
 const HomePage = () => {
   return(
       <div>
@@ -10,7 +12,10 @@ const HomePage = () => {
           <div className="container-main">
               <HomeAd />
               <NewestArtist />
+              <TopProducers />
               <Playlists />
+              <Footer />
+
           </div>
 
       </div>
